@@ -1,4 +1,5 @@
-# How to create a Lightsaber like Weapon in Unity (Standard RP)
+# How to create a Lightsaber like Weapon in Unity 
+## (Standard Render Pipeline)
 
 ### Foreword
 
@@ -11,9 +12,8 @@ Like the HDRP tutorial this is an educational tutorial, this free asset is for t
 
 Here's a preview video of what this is about. Click on the picture to open the accompanying youtube video.
 
-[![How to create Lightsaber like Weapons in Unity](https://img.youtube.com/vi/SJ0ZCCjO5aQ/0.jpg)](https://www.youtube.com/watch?v=SJ0ZCCjO5aQ)
+[![How to create Lightsaber like Weapons in Unity](https://img.youtube.com/vi/oUMSiZU_Lyo/0.jpg)](https://www.youtube.com/watch?v=oUMSiZU_Lyo)
 
-*Note: I kept the HDRP standard demo scene that everyone is familiar with.*
 
 ### Quick Setup
 
@@ -25,13 +25,7 @@ Here are the quick setup steps:
 
 * add the Post Processing package (current version is 2.1.7)
 
-* add Bloom: Rendering Settings -> Add Override -> Post-processing -> Bloom
-
-  set Intensity 0.491, Scatter 0.487 (whatever you prefer for the glow effect)
-
-* import the [source code from github](https://github.com/Roland09/Lightsabers-Tutorial) or the [weapons_tutorial.unitypackage](https://github.com/Roland09/Lightsabers-Tutorial/blob/master/Release/weapons_tutorial.unitypackage)
-
-* drag the "Weapon (Single)" or "Weapon (Double)" or "Weapon (Cross)" prefab into the scene
+* open Scenes > SampleScene
 
 * hit play
 
@@ -39,13 +33,16 @@ Here are the quick setup steps:
 
 ### Additional Info
 
-* the shader graph is one I posted in the [Amplify Shader Editor thread](https://forum.unity.com/threads/best-tool-asset-store-award-amplify-shader-editor-node-based-shader-creation-tool.430959/page-32#post-3147421)
+* the shader graph is the one I posted in the [Amplify Shader Editor thread](https://forum.unity.com/threads/best-tool-asset-store-award-amplify-shader-editor-node-based-shader-creation-tool.430959/page-32#post-3147421)
 
   (Credits to "K Re" who did the glow effect graph tutorial for the unreal engine)
  
 * you might want to add audio for the weapon on / off / loop / swing sound in the Weapon script settings; unfortunately I'm not allowed to provide them
 
 * this works in 2018+
+
+* the glow effect very much depends on your shader settings and the bloom post processing settings, adjust to your own preferences
+
 
 ### Addendum
 
