@@ -40,6 +40,15 @@ Here are the quick setup steps:
 
 * the glow effect very much depends on your shader settings and the bloom post processing settings, adjust to your own preferences
 
+### How it works
+
+Please see the [HDRP version](https://github.com/Roland09/Lightsabers-Tutorial) about how it works. The setup and the scripts are the same.
+
+A difference is in the settings though. The HDRP version works e. g. with lumen, that's not available in the Standard version. We need to adjust the light settings accordingly. So the Blade Color Intensity and the Light Intensity settings of the Weapon got a value of 1.
+
+
+
+
 
 ### Addendum
 
