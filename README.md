@@ -18,7 +18,7 @@ Here's a preview video of what this is about. Click on the picture to open the a
 
 Here are the quick setup steps:
 
-* create a new project "Weapon Tutorial" using "3D" Template in Unity 2019.1.5f1
+* create a new project "Weapon Tutorial" using "3D" Template in Unity 2019.1.5f1 (or use 2018+)
 
 * set Color Space to "Linear" in the project settings
 
@@ -37,8 +37,6 @@ Here are the quick setup steps:
   (Credits to "K Re" who did the glow effect graph tutorial for the unreal engine)
  
 * you might want to add audio for the weapon on / off / loop / swing sound in the Weapon script settings; unfortunately I'm not allowed to provide them
-
-* this works in 2018+
 
 * the glow effect very much depends on your shader settings and the bloom post processing settings, adjust to your own preferences
 
