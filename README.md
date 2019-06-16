@@ -1,1 +1,54 @@
-# Lightsabers-Tutorial-Standard
+# How to create a Lightsaber like Weapon in Unity (Standard RP)
+
+### Foreword
+
+This is an addition to the [Lightsabers Tutorial (HDRP)](https://github.com/Roland09/Lightsabers-Tutorial). This tutorial covers the Standard RP.
+
+Like the HDRP tutorial this is an educational tutorial, this free asset is for training purposes only.
+
+
+### Preview
+
+Here's a preview video of what this is about. Click on the picture to open the accompanying youtube video.
+
+[![How to create Lightsaber like Weapons in Unity](https://img.youtube.com/vi/SJ0ZCCjO5aQ/0.jpg)](https://www.youtube.com/watch?v=SJ0ZCCjO5aQ)
+
+*Note: I kept the HDRP standard demo scene that everyone is familiar with.*
+
+### Quick Setup
+
+Here are the quick setup steps:
+
+* create a new project "Weapon Tutorial" using "3D" Template in Unity 2019.1.5f1
+
+* set Color Space to "Linear" in the project settings
+
+* add the Post Processing package (current version is 2.1.7)
+
+* add Bloom: Rendering Settings -> Add Override -> Post-processing -> Bloom
+
+  set Intensity 0.491, Scatter 0.487 (whatever you prefer for the glow effect)
+
+* import the [source code from github](https://github.com/Roland09/Lightsabers-Tutorial) or the [weapons_tutorial.unitypackage](https://github.com/Roland09/Lightsabers-Tutorial/blob/master/Release/weapons_tutorial.unitypackage)
+
+* drag the "Weapon (Single)" or "Weapon (Double)" or "Weapon (Cross)" prefab into the scene
+
+* hit play
+
+* press space to toggle the weapon on and off
+
+### Additional Info
+
+* the shader graph is one I posted in the [Amplify Shader Editor thread](https://forum.unity.com/threads/best-tool-asset-store-award-amplify-shader-editor-node-based-shader-creation-tool.430959/page-32#post-3147421)
+
+  (Credits to "K Re" who did the glow effect graph tutorial for the unreal engine)
+ 
+* you might want to add audio for the weapon on / off / loop / swing sound in the Weapon script settings; unfortunately I'm not allowed to provide them
+
+* this works in 2018+
+
+### Addendum
+
+#1) Please note that Lightsaber is a registered trademark owned by LUCASFILM ENTERTAINMENT COMPANY LTD. The word is being used as reference because it's common knowledge.
+
+
