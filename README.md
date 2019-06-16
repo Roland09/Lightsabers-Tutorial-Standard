@@ -1,9 +1,8 @@
 # How to create a Lightsaber like Weapon in Unity 
-## (Standard Render Pipeline)
 
 ### Foreword
 
-This is an addition to the [Lightsabers Tutorial (HDRP)](https://github.com/Roland09/Lightsabers-Tutorial). This tutorial covers the Standard RP.
+This is an addition to the [Lightsabers Tutorial (HDRP)](https://github.com/Roland09/Lightsabers-Tutorial). This tutorial covers the Standard Render Pipeline.
 
 Like the HDRP tutorial this is an educational tutorial, this free asset is for training purposes only.
 
